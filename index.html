@@ -69,41 +69,61 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+
     <!-- Title of website -->
     <title>Home : Italian Food</title>
   </head>
   <body>
     <!-- Navigation bar starts here -->
-    <header class="header-menu">
-      <div class="Navbar">
+    <header class="header-menu" >
+      <div class="Navbar"  id="menuHeader">
         <div class="menu-logo">
           <a href="index.html">
             <img src="assets/images/logolight.png" alt="logo" />
           </a>
         </div>
 
-        <div class="menu-link">
-          <ul>
+        <div class="menu-link d-sm-none" >
+          <ul >
             <li>
-              <a href="index.html"> Home</a>
+              <a class="menu-link-scroll" href="index.html"> Home</a>
             </li>
             <li>
-              <a href="about.html">About</a>
+              <a class="menu-link-scroll"  href="about.html">About</a>
             </li>
             <li>
-              <a href="#">Menu</a>
+              <a class="menu-link-scroll" href="#">Menu</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a class="menu-link-scroll" href="#">Blog</a>
             </li>
             <li>
-              <a href="#">Store</a>
+              <a class="menu-link-scroll" href="#">Store</a>
             </li>
             <li>
-              <a href="about.html">Contact</a>
+              <a class="menu-link-scroll" href="about.html">Contact</a>
             </li>
           </ul>
         </div>
+      </div>
+
+      <div class="mobile-menu d-none">
+        <div class="overlay" onclick="closeMenu()"></div>
+        <div class="menu">
+          <div class="menu-header">
+            <span class="close" onclick="closeMenu()"><i class="fa fa-times icon-close" aria-hidden="true"></i></span>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <button class="menu-icon" onclick="openMenu()"><i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
       </div>
     </header>
 
@@ -152,7 +172,7 @@
             </div>
           </div>
 
-          <div class="column-two-width">
+          <div class="column-two-width d-sm-none">
             <div
               class="main-section-right animate__animated animate__backInRight animate__slow"
             >
@@ -250,58 +270,6 @@
         </div>
       </div>
     </div>
-
-    <section class="section-column-two-width">
-      <div class="container space-60">
-        <div class="row">
-          <div class="column-two-width">
-            <div class="box center"></div>
-          </div>
-
-          <div class="column-two-width">
-            <div class="box-2 center"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-column-three-width">
-      <div class="container space-60">
-        <div class="row">
-          <div class="column-three-width">
-            <div class="box center"></div>
-          </div>
-
-          <div class="column-three-width">
-            <div class="box-2 center"></div>
-          </div>
-
-          <div class="column-three-width">
-            <div class="box-3 center"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-column-four-width">
-      <div class="container space-60">
-        <div class="row">
-          <div class="column-four-width"></div>
-
-          <div class="column-four-width">
-            <div class="box-2 center"></div>
-          </div>
-
-          <div class="column-four-width">
-            <div class="box-3 center"></div>
-          </div>
-
-          <div class="column-four-width">
-            <div class="box-4 center"></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <script src="assets/js/main.js"></script>
   </body>
