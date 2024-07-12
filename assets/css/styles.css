@@ -87,7 +87,6 @@ p:last-child {
   height: 90px;
   /* background: black; */
   margin: 20px;
-
 }
 
 .Navbar {
@@ -102,13 +101,9 @@ p:last-child {
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   height: 70px;
   width: 88%;
- 
 }
 
-
-
-
-.navbar-dark{
+.navbar-dark {
   display: flex;
   text-align: center;
   /* align-items: center; */
@@ -123,10 +118,9 @@ p:last-child {
   width: 88%;
   background: #fff;
   color: #333 !important;
-
 }
 
-.menu-link-dark  {
+.menu-link-dark {
   color: #333 !important;
 }
 
@@ -411,6 +405,18 @@ button {
   flex: auto;
   border: 1px dashed #e4aa3f;
 }
+.column-five-width {
+  max-width: 20%;
+  height: 350px;
+  width: 100%;
+  /* background-color: rgb(59, 248, 12); */
+  justify-content: center;
+  display: flex;
+  flex: auto;
+  border: 1px dashed #e4aa3f;
+}
+
+
 .justify-content-center {
   justify-self: center;
   display: flex;
@@ -546,6 +552,326 @@ section {
   top: 19px;
   font-size: 17px;
 }
+
+.page-area-section-two {
+  background-image: url(../images/backgroud-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: -45px;
+}
+
+.icon {
+  position: relative;
+  top: -48px;
+  left: -48px;
+}
+
+.icon img {
+  width: 12%;
+}
+
+.page-area-section-two-text {
+  color: #ffffff;
+  width: 100%;
+  margin: auto;
+  line-height: 1.2;
+  position: relative;
+  top: 50px;
+  
+}
+
+.page-area-section-two-text h2 {
+  font-size: 42px;
+  font-weight: 900;
+  font-family: Rockwell;
+}
+.page-area-section-two-text h2 p1{
+background-color:#dc3939;
+border: 0.5px;
+border-radius: 5px;
+line-height: 20px;
+padding: 15px 30px 15px 30px;
+display: inline-block;
+}
+
+.page-area-section-two-shop button{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 0.5px;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    background:#095b2b;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+    z-index: 999;
+    margin: 5px;
+  }
+ 
+  #shopnow-white{
+    color: white;
+  }
+
+
+  
+.page-area-section-three {
+  background-image: url(../images/background-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: -45px;
+}
+
+.icon2{
+  position: relative;
+  left: 608px;
+  top: 48px;
+
+}
+.icon2 img{
+  width: 12%;
+
+}
+
+.page-area-section-three-text {
+  color: #000;
+  width: 100%;
+  margin: auto;
+  line-height: 1.2;
+  position: relative;
+  top: 50px;
+  /* left: 60px; */
+}
+
+.page-area-section-three-text h2 {
+  font-size: 42px;
+  font-weight: 900;
+  font-family: Rockwell;
+}
+
+.page-area-section-three-shop button{
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  border: 0.5px;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 15px 30px 15px 30px;
+  display: inline-block;
+  text-decoration: none;
+  background:#e4aa3f;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  z-index: 999;
+  margin: 5px;
+}
+
+.page-area-section-four{
+  background-image: url(../images/background-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: -45px;
+}
+
+
+.page-area-section-four-text {
+  color:#000;
+  width: 100%;
+  margin: auto;
+  line-height: 1.2;
+  position: relative;
+  top: 50px;
+  
+}
+
+.page-area-section-four-text h2 {
+  font-size: 42px;
+  font-weight: 900;
+  font-family: Rockwell;
+}
+.page-area-section-four-text h2 p1{
+background-color:#095b2b;
+border: 0.5px;
+border-radius: 5px;
+line-height: 20px;
+padding: 15px 30px 15px 30px;
+display: inline-block;
+}
+
+.page-area-section-four-shop button{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 0.5px;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    background:#e4aa3f;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+    z-index: 999;
+    margin: 5px;
+  }
+
+  
+.icon3{
+  position: relative;
+  top: -48px;
+  left: -48px;
+
+
+}
+.icon3 img{
+  width: 15%;
+
+}
+
+
+  #shopnow-black{
+    color: #000;
+  }
+
+.page-area-section-five{
+  background-image: url(../images/background-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: -45px;
+}
+
+
+.page-area-section-five-text {
+  color: #000;
+  width: 100%;
+  margin: auto;
+  line-height: 1.2;
+  position: relative;
+  top: 50px;
+  /* left: 60px; */
+}
+
+.page-area-section-five-text h2 {
+  font-size: 42px;
+  font-weight: 900;
+  font-family: Rockwell;
+}
+
+.page-area-section-five-shop button{
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  border: 0.5px;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 15px 30px 15px 30px;
+  display: inline-block;
+  text-decoration: none;
+  background:#f59191;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  z-index: 999;
+  margin: 5px;
+}
+
+
+.icon4{
+  position: relative;
+  left: 608px;
+  top: 68px;
+
+}
+.icon4 img{
+  width: 15%;
+
+}
+
+
+.page-area-section-six{
+  background-image: url(../images/background-7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: -45px;
+}
+
+.procedure-section {
+  max-width: 600px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.desc-procedure{
+  position: relative;
+  top: -40px;
+  text-align: center;
+  line-height: 1.7;
+  color: #afaaaa;
+}
+
+.procedure-section-text h3 {
+  font-size: 32px;
+  font-weight: 900;
+  font-family: Rockwell;
+  text-align: center;
+}
+
+
+.procedure-section-column {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+
+}
+
+.box-procedure {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+
+}
+
+.procedure-step-one {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px 0 30px;
+  font-size: 30px;
+
+}
+.procedure-step-two {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  font-size: 30px;
+
+}
+
+.step-arrow {
+  position: relative;
+  top: 66px;
+}
+
+
+
+
 
 /* MAIN AREA ENDS HERE */
 

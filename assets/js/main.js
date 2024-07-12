@@ -18,8 +18,8 @@ window.addEventListener('scroll', function() {
   var menuLink =  document.getElementsByClassName('menu-link-scroll');
   var scrollHeight = window.scrollY;
   
-  // Change position of menu header when scroll height is 45 or greater
-  if (scrollHeight >= 45) {
+  // Change position of menu header when scroll height is 500 or greater
+  if (scrollHeight >= 500) {
     menuHeader.classList.add('navbar-dark'); 
     menuLink.classList.add('menu-link-dark'); 
   } else {
